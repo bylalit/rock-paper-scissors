@@ -98,6 +98,8 @@ const restart = () => {
     userCount.innerText = userScore;
     compScore = 0;
     compCount.innerText = compScore;
+    masBox.innerText = "Play Your Move";
+    masBox.style.backgroundColor = "#081b31";
 }
 
 
