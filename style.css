@@ -80,10 +80,27 @@ h1{
     cursor: pointer;
 }
 
+#reset{
+    margin-top: 4rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border: none;
+    background-color: #081b31;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-left: 5rem;
+}
+
 @media screen and (max-width : 580px) {
     .container .boxes{
         flex-direction: column;
         margin-top: 3rem;
         gap:2rem;
+    }
+    #reset{
+        margin-left: 0;
+        display: block;
+        margin: 2rem auto;
     }
 }

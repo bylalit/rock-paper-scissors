@@ -5,8 +5,11 @@ let userCount = document.querySelector("#user");
 let compCount = document.querySelector("#comp");
 let masBox = document.querySelector("#btn");
 
+let reset = document.querySelector("#reset");
+
 
 let boxes = document.querySelectorAll(".box");
+
 
 
 
@@ -17,7 +20,7 @@ const compGen = () => {
 }
 
 const draws = () => {
-    console.log("Game was draw!");
+    // console.log("Game was draw!");
     masBox.innerText = "Draw Match!";
     masBox.style.backgroundColor = "#081b31";
 }
@@ -85,4 +88,19 @@ boxes.forEach((box) =>{
         // console.log(userChoice);
         playGame(userChoice);
     })
+});
+
+
+
+
+const restart = () => {
+    userScore = 0;
+    userCount.innerText = userScore;
+    compScore = 0;
+    compCount.innerText = compScore;
+}
+
+
+reset.addEventListener("click", ()=>{
+    restart();
 });
