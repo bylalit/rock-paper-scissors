@@ -79,3 +79,11 @@ h1{
     border-radius: 1rem;
     cursor: pointer;
 }
+
+@media screen and (max-width : 580px) {
+    .container .boxes{
+        flex-direction: column;
+        margin-top: 3rem;
+        gap:2rem;
+    }
+}
