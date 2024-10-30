@@ -13,11 +13,11 @@ let boxes = document.querySelectorAll(".box");
 
 
 
-const compGen = () => {
-    let option = ["rock", "paper", "scissors"]
-    let randomChoice = Math.floor(Math.random() * 3);
-    return option[randomChoice];
-}
+// const compGen = () => {
+//     let option = ["rock", "paper", "scissors"]
+//     let randomChoice = Math.floor(Math.random() * 3);
+//     return option[randomChoice];
+// }
 
 const draws = () => {
     // console.log("Game was draw!");
