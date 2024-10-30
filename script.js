@@ -81,14 +81,14 @@ const playGame = (userChoice) => {
 };
 
 
-// boxes.forEach((box) =>{
-//     box.addEventListener("click", () => {
-//         // console.log("boxes was click.", box);
-//         const userChoice = box.getAttribute("id");
-//         // console.log(userChoice);
-//         playGame(userChoice);
-//     })
-// });
+boxes.forEach((box) =>{
+    box.addEventListener("click", () => {
+        // console.log("boxes was click.", box);
+        const userChoice = box.getAttribute("id");
+        // console.log(userChoice);
+        playGame(userChoice);
+    })
+});
 
 
 
