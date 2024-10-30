@@ -93,14 +93,14 @@ boxes.forEach((box) =>{
 
 
 
-const restart = () => {
-    userScore = 0;
-    userCount.innerText = userScore;
-    compScore = 0;
-    compCount.innerText = compScore;
-    masBox.innerText = "Play Your Move";
-    masBox.style.backgroundColor = "#081b31";
-}
+// const restart = () => {
+//     userScore = 0;
+//     userCount.innerText = userScore;
+//     compScore = 0;
+//     compCount.innerText = compScore;
+//     masBox.innerText = "Play Your Move";
+//     masBox.style.backgroundColor = "#081b31";
+// }
 
 
 reset.addEventListener("click", ()=>{
